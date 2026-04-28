@@ -148,8 +148,8 @@ variable "rabbitmq_secret_arn" {
 
 variable "rabbitmq_instance_class" {
   type        = string
-  description = "Required: Instance class for the RabbitMQ broker."
-  default     = "mq.t3.micro"
+  description = "Required: Instance class for the RabbitMQ broker. Must be one of mq.m7g.medium / large / xlarge / 2xlarge or mq.m5.large / xlarge / 2xlarge / 4xlarge."
+  default     = "mq.m7g.medium"
 }
 
 variable "admin_email" {
