@@ -1,5 +1,9 @@
 # Unreleased
 
+# 2.1.0
+
+* Upgrading to OE Zulip Pattern 2.1.0 (Zulip version 12.1)
+
 # 2.0.0
 
 * Upgrading to OE Zulip Pattern 2.0.0 (Zulip version 12.0)
