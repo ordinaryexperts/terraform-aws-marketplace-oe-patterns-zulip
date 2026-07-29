@@ -11,7 +11,7 @@ terraform {
 resource "aws_cloudformation_stack" "oe_patterns_zulip" {
   name = var.stack_name
 
-  template_url = "https://awsmp-cft-053155443450-1579814207723.s3.us-east-1.amazonaws.com/298eb782-199f-4b22-b768-ffc506ed82d5/298eb782-199f-4b22-b768-ffc506ed82d5/template.yaml"
+  template_url = "https://awsmp-cft-053155443450-1579814207723.s3.us-east-1.amazonaws.com/fd1dea7d-6082-49f3-9542-3b8571dc2253/fd1dea7d-6082-49f3-9542-3b8571dc2253/template.yaml"
 
   capabilities = ["CAPABILITY_NAMED_IAM"]
 

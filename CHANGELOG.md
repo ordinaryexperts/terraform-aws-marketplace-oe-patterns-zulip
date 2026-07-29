@@ -1,4 +1,8 @@
-# Unreleased
+# 2.1.1
+
+* Upgrading to OE Zulip Pattern 2.1.1 (pattern patch release, Zulip version unchanged at 12.1)
+* Update `template_url` to the Marketplace-hosted 2.1.1 template
+* Update `asg_instance_type` default from `t3.medium` to `t3.large` to match the 2.1.1 template's AllowedValues constraint (`t3.medium` reliably OOM-crash-loops under Zulip's worker processes and is no longer accepted)
 
 # 2.1.0
 
