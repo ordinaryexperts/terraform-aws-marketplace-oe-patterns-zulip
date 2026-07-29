@@ -185,7 +185,7 @@ variable "enable_mobile_push_notifications" {
 variable "asg_instance_type" {
   type        = string
   description = "Required: EC2 instance type for the application ASG."
-  default     = "t3.medium"
+  default     = "t3.large"
 }
 
 variable "asg_key_name" {
